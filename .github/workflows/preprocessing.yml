@@ -21,7 +21,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.8'  # Tentukan versi Python yang digunakan
+        python-version: '3.12.7'  # Tentukan versi Python yang digunakan
 
     # Langkah ketiga: Install dependencies
     - name: Install dependencies
