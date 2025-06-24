@@ -33,7 +33,7 @@ jobs:
     - name: Run data preprocessing script
       run: |
         cd preprocessing  # Pindah ke direktori preprocessing
-        python automate_muhammad_rizky_fajar.py  # Jalankan skrip Python
+        python ../automate_muhammad_rizky_fajar.py  # Jalankan skrip Python
 
     # Langkah kelima: Menyimpan file output (optional)
     - name: Upload preprocessed data
